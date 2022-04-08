@@ -4,7 +4,7 @@ const Pool = pg.Pool;
 
 const pool = new Pool({
     user: 'postgres',
-    host: 'webapiclase.herokuapp.com',
+    host: 'localhost',
     database: 'tc3005b',
     password: 'Tec2019.01',
     port: 5432,
